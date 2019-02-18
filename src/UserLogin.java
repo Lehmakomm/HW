@@ -8,9 +8,7 @@ public class UserLogin {
     private static boolean check = false;
 
     public static void main(String[] args) {
-
         while (!check){
-
             while(!check) {
                 System.out.println("Sisesta esimene parool: ");
                 String userInput1 = askUserFirstPassword();
