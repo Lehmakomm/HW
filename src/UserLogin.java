@@ -14,8 +14,7 @@ public class UserLogin {
             while(!check) {
                 System.out.println("Sisesta esimene parool: ");
                 String userInput1 = askUserFirstPassword();
-                if (passwordChecker(userInput1, sysPassword1))
-                    check = true;
+                check = passwordChecker(userInput1, sysPassword1);
             }
             System.out.println("Sisesta teine parool: ");
             String userInput2 = askUserFirstPassword();
